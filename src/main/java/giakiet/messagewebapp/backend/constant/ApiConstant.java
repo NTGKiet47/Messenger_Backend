@@ -12,4 +12,8 @@ public class ApiConstant {
 
     public static final String API_CONVERSATION = "/conversation";
 
+    public static final String API_SEND_MESSAGE = "/chat.sendMessage";
+    public static final String API_ADD_USER = "/chat.addUser";
+    public static final String API_TOPIC_PUBLIC = "/topic/public";
+
 }

@@ -27,4 +27,6 @@ public class Message extends TrackingDeleteObject {
     @JoinColumn(name = "sender_id")
     User sender;
 
+    String messageType;
+
 }
